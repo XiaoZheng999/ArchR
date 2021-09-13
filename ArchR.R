@@ -767,3 +767,16 @@ plotPDF(p1, name = "Plot-UMAP-Remap-Clusters.pdf", ArchRProj = projHeme2, addDOC
 
 saveArchRProject(ArchRProj = projHeme3, outputDirectory = "Save-ProjHeme3", load = FALSE)
 
+
+
+Error in .safelapply(seq_along(allSamples), function(y) { :
+Error Found Iteration 2 :
+        [1] "Error in H5Fopen(file) : HDF5. File accessibility. Unable to open file.\n"
+        <simpleError in H5Fopen(file): HDF5. File accessibility. Unable to open file.>
+Error Found Iteration 3 :
+        [1] "Error in H5Fopen(file) : HDF5. File accessibility. Unable to open file.\n"
+        <simpleError in H5Fopen(file): HDF5. File accessibility. Unable to open file.>
+In addition: Warning message:
+In mclapply(..., mc.cores = threads, mc.preschedule = preschedule) :
+  2 function calls resulted in an error
+
